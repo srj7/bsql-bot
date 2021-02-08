@@ -8,6 +8,7 @@ const pkg = require('../package.json');
 const helpText = ({ me }) => `Hey there, I can help you compile code snippets in telegram.
 
 How to use: \`/<language> <code> [/stdin <stdin>]\`
+
 example : \`/python print("Hello World") /stdin inputs(if any) \`
 
 Line breaks and indentation are supported.
