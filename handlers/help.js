@@ -18,15 +18,13 @@ See list of supported programming languages:
 /common\\_languages, /all\\_languages.
 
 Version: \`${pkg.version}\`.
-Powered by rextester.com.
+Powered by AWS Lambda.
 `;
 
 const helpHandler = ctx => {
     const inline_keyboard = [ [
         // XXX use pkg.bugs.url instead?
-        { text: "Official group", url: "telegram.me/Rextesters" },
-        { text: "Repository", url: pkg.repository.url },
-        { text: "Rate", url: `https://telegram.me/storebot?start=${ctx.me}` },
+        { text: "Web App", url: "https://www.binarysquirrel.cf/" },
     ] ];
 
     const reply_markup = { inline_keyboard };
