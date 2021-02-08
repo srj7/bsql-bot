@@ -13,7 +13,7 @@ example : \`/python print("Hello World") /stdin inputs(if any) \`
 Line breaks and indentation are supported.
 
 See list of supported programming languages:
-/common\\_languages, /all\\_languages.
+/common\\_languages
 
 Version: \`${pkg.version}\`.
 Powered by AWS Lambda.
