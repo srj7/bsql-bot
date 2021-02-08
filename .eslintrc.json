@@ -1,0 +1,49 @@
+{
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        },
+        "ecmaVersion": 2017
+    },
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "array-bracket-spacing": [ "error", "always" ],
+        "default-case": "error",
+        "eqeqeq": [ "error", "allow-null" ],
+        "func-call-spacing": "error",
+        "function-paren-newline": "error",
+        "global-require": "error",
+        "indent": [ "error", 4 ],
+        "key-spacing": "error",
+        "max-len": [ "error", 80 ],
+        "new-parens": "error",
+        "no-await-in-loop": "error",
+        "no-extra-bind": "error",
+        "no-invalid-this": "error",
+        "no-lonely-if": "error",
+        "no-multi-spaces": "error",
+        "no-multiple-empty-lines": "error",
+        "no-negated-condition": "error",
+        "no-new-require": "error",
+        "no-self-compare": "error",
+        "no-sequences": "error",
+        "no-tabs": "error",
+        "no-unneeded-ternary": "error",
+        "no-use-before-define": "error",
+        "no-warning-comments": "warn",
+        "object-curly-spacing": [ "error", "always" ],
+        "object-shorthand": "error",
+        "prefer-const": "error",
+        "prefer-destructuring": "error",
+        "semi": [ "error", "always" ],
+        "sort-keys": "error",
+        "sort-vars": "error",
+        "space-in-parens": "error",
+        "spaced-comment": "error",
+        "strict": [ "error", "global" ]
+    }
+}
