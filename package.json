@@ -12,10 +12,10 @@
     "start": "telegraf"
   },
   "private": true,
-  "author": "Wojciech Pawlik <woj.pawlik@gmail.com>",
+  "author": "Sooraj <sooraj970@gmail.com>",
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wojpawlik/Rextester-bot-v3.git"
+    "url": "https://github.com/srj7/bsql-bot.git"
   }
 }
