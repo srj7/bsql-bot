@@ -1,6 +1,6 @@
 {
-  "name": "rextester-bot",
-  "version": "3.0.0-alpha3",
+  "name": "binarysquirrel-bot",
+  "version": "1.0.0-alpha1",
   "description": "Telegram bot for executing snippets of code.",
   "dependencies": {
     "node-fetch": "^2.6.0",
