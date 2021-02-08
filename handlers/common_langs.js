@@ -6,12 +6,11 @@ const { command, reply } = require('telegraf').Composer;
 const prependLangPrefix = s => `/${s}`;
 
 const mostCommonLangs = [
-    'bash',
     'c',
     'c++',
     'java',
     'js',
-    'lua',
+    'fortran',
     'php',
     'python2',
     'python3',
@@ -23,7 +22,6 @@ const replyString = `
 <pre>
 ${mostCommonLangs.map(prependLangPrefix).join('\n')}
 </pre>
-See /all_languages.
 `;
 
 const handler = reply(replyString, { parse_mode: 'HTML' });
