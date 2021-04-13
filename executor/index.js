@@ -14,7 +14,7 @@ const langsList = R.pipe(
 const CompilerArgs = require('./compiler-args.json');
 
 const defaults = {
-    url: 'https://rextester.com/rundotnet/api',
+    url: 'https://rextester.com/rundotnet/Run',
 };
 
 class RextesterExecutor {
