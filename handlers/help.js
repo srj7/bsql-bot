@@ -11,6 +11,8 @@ How to use: \`/<language> <code> [/stdin <stdin>]\`
 
 example : \`/python print("Hello World") /stdin inputs(if any) \`
 
+Video link : https://telegra.ph/How-to-use-Binary-Squirrel-bot-07-12
+
 Line breaks and indentation are supported.
 
 See list of supported programming languages:
